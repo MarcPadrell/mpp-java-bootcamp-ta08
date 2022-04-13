@@ -1,16 +1,19 @@
 package ta08;
 
 public class Persona {
-
+	
+	// Constante
 	final private String SEXO = "H";
 	
+	// Atributos
 	private String nombre;
 	private int edad;
 	private String dni;
 	private String sexo;
 	private double peso;
 	private int altura;
-
+	
+	// Constructor por defecto
 	public Persona() {
 		this.nombre = "";
 		this.edad = 0;

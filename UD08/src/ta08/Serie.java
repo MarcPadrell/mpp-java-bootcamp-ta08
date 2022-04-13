@@ -1,10 +1,12 @@
 package ta08;
 
 public class Serie {
-
+	
+	// Constantes
 	final private int NUM_TEMP = 3;
 	final private boolean ENTREGADO = false;
-
+	
+	// Atributos
 	private String titulo;
 	private int numero_temporada;
 	private boolean entregado;

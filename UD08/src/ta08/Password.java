@@ -1,17 +1,21 @@
 package ta08;
 
 public class Password {
-
+	
+	// Constantes
 	final private int LONGITUD = 8;
-
+	
+	// Atributos
 	private int longitud;
 	private String contraseña;
-
+	
+	//Constructor por defecto
 	public Password() {
 		this.longitud = LONGITUD;
 		this.contraseña = "";
 	}
-
+	
+	// Constructor creando la password aleatoria con la longitud indicada.
 	public Password(int longitud) {
 		this.longitud = longitud;
 
